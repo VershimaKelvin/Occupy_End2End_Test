@@ -16,25 +16,25 @@ public class PlaywrightFactory {
                 browser = playwright.chromium()
                         .launch( new BrowserType.LaunchOptions().setChannel("chrome")
                                 .setHeadless(false)
-                                .setSlowMo(200));
+                                .setSlowMo(50));
                 break;
             case "firefox"  :
                 browser= playwright.firefox()
                         .launch( new BrowserType.LaunchOptions()
                         .setHeadless(false)
-                        .setSlowMo(100));
+                        .setSlowMo(50));
                 break;
             case "safari":
                 browser = playwright.webkit()
                         .launch(new BrowserType.LaunchOptions()
                         .setHeadless(false)
-                        .setSlowMo(100));
+                        .setSlowMo(50));
                 break;
             case "chromium"  :
                 browser= playwright.chromium()
                         .launch( new BrowserType.LaunchOptions()
                                 .setHeadless(false)
-                                .setSlowMo(100));
+                                .setSlowMo(50));
                 break;
 
             default:
