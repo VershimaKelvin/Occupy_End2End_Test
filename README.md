@@ -11,16 +11,7 @@ These tests are designed to verify core functionalities of the Occupy platform a
 - **Maven**: For dependency management and build control.
 
 ## 📁 Project Structure
-├── src
-│ ├── main
-│ │ └── java
-│ │ └── com.occupy.factory # Playwright factory setup
-│ │ └── com.occupy.pages # Page Object Model classes
-│ ├── test
-│ └── java
-│ └── com.occupy.test # TestNG test cases
-├── pom.xml # Maven dependencies
-├── README.md
+<pre lang="markdown"> ```bash ├── src │ ├── main │ │ └── java │ │ └── com.occupy.factory # Playwright factory setup │ │ └── com.occupy.pages # Page Object Model classes │ ├── test │ │ └── java │ │ └── com.occupy.test # TestNG test cases ├── pom.xml # Maven dependencies ├── README.md ``` </pre>
 
 ## ✅ Features
 
