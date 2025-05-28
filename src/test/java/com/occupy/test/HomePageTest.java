@@ -66,5 +66,10 @@ public class HomePageTest extends OccupyBaseClass {
         Assert.assertTrue(homePage.exploreSupermarketmethAgain().isVisible());
     }
 
+    @Test
+    public void verifyCareers(){
+        Assert.assertTrue(homePage.exploreSupermarketmethAgain().isVisible());
+    }
+
 
 }
