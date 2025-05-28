@@ -66,6 +66,7 @@ public class HomePageTest extends OccupyBaseClass {
         Assert.assertTrue(homePage.exploreSupermarketmethAgain().isVisible());
     }
 
+    //I am not sure why this is not working
     @Test
     public void verifyCareers(){
         Assert.assertTrue(homePage.exploreSupermarketmethAgain().isVisible());
